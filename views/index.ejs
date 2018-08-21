@@ -1,0 +1,47 @@
+<style>
+.container {
+  display: inline-block;
+  width: 250px;
+  height: 140px;
+  background-color: #61df61;
+  border: 1px solid black;
+  font-size: 14px;
+}
+.container > p {
+  margin: 6px 0;
+  text-align: center;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NodeJS Example</title>
+    <meta charset="utf-8">
+    <meta name="description"  content="This is the index">
+    <meta name="author"       content="Tundra Fizz">
+    <link rel="shortcut icon" href="/img/icon.jpg">
+    <link rel="stylesheet"    href="/css/theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="content">
+      <p>Containers</p>
+      <!-- <pre><%= JSON.stringify(containers, null, 2) %></pre> -->
+      <div>
+        <% for(var i = 0; i < containers.length; i++){ var c = containers[i]; %>
+          <div class="container">
+            <p>Service: <%= c["service"] %></p>
+            <p>Image:   <%= c["image"] %></p>
+            <p>ID:      <%= c["id"] %></p>
+            <p>Stack:   <%= c["stack"] %></p>
+            <p>Status:  <%= c["status"] %></p>
+          </div>
+        <% } %>
+      </div>
+    </div>
+
+  </body>
+</html>

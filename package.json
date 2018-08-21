@@ -1,0 +1,25 @@
+{
+  "name": "narwhal",
+  "version": "0.1.0",
+  "description": "Docker visualizer.",
+  "main": "server.js",
+  "author": "Tundra Fizz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "node-sass-middleware": "latest",
+    "nodemon": "^1.18.3",
+    "csv-parse": "latest"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "nodemon": "nodemon"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TundraFizz/Narwhal"
+  }
+}
