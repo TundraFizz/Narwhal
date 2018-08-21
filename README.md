@@ -1,1 +1,3 @@
-# Narwhal-Docker-Swarm-Visualizer
+# Narwhal
+
+Docker Visualizer
