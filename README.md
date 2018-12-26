@@ -1,3 +1,3 @@
 # Narwhal
 
-Docker Visualizer
+Archived; legacy.
